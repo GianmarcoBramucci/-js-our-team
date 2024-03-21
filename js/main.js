@@ -32,7 +32,7 @@ let crew = [
 
 for(let member of crew){
     html=member.nomeCognome;
-    imgSrc = `./img/${member.img};` 
+    imgSrc = `../img/${member.img};` 
     div= getElement('div','','','',html,1);
     divRisposta.append(div);   
     img = getElement('img','src',imgSrc,'','',2)
