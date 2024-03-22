@@ -1,0 +1,10 @@
+.box{
+    display: flex;
+    flex-direction: column;
+    width: calc(100%/3)
+}
+
+img{
+    width: 50%;
+    height: auto;
+}
